@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HW06v2", "HW06v2", "{CB84D1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KS.UIP.Cpp.HWv2.PtrStringHeapTask00-1", "KS.UIP.Cpp.HWv2.PtrStringHeapTask00-1\KS.UIP.Cpp.HWv2.PtrStringHeapTask00-1.vcxproj", "{E9E858EA-7F50-4074-8800-EAB2B3D754B5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KS.UIP.Cpp.HWv2.PtrStringHeapTask00-2", "KS.UIP.Cpp.HWv2.PtrStringHeapTask00-2\KS.UIP.Cpp.HWv2.PtrStringHeapTask00-2.vcxproj", "{E021513E-0458-4D2B-B28D-91D7423099F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,12 +25,21 @@ Global
 		{E9E858EA-7F50-4074-8800-EAB2B3D754B5}.Release|x64.Build.0 = Release|x64
 		{E9E858EA-7F50-4074-8800-EAB2B3D754B5}.Release|x86.ActiveCfg = Release|Win32
 		{E9E858EA-7F50-4074-8800-EAB2B3D754B5}.Release|x86.Build.0 = Release|Win32
+		{E021513E-0458-4D2B-B28D-91D7423099F2}.Debug|x64.ActiveCfg = Debug|x64
+		{E021513E-0458-4D2B-B28D-91D7423099F2}.Debug|x64.Build.0 = Debug|x64
+		{E021513E-0458-4D2B-B28D-91D7423099F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{E021513E-0458-4D2B-B28D-91D7423099F2}.Debug|x86.Build.0 = Debug|Win32
+		{E021513E-0458-4D2B-B28D-91D7423099F2}.Release|x64.ActiveCfg = Release|x64
+		{E021513E-0458-4D2B-B28D-91D7423099F2}.Release|x64.Build.0 = Release|x64
+		{E021513E-0458-4D2B-B28D-91D7423099F2}.Release|x86.ActiveCfg = Release|Win32
+		{E021513E-0458-4D2B-B28D-91D7423099F2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E9E858EA-7F50-4074-8800-EAB2B3D754B5} = {CB84D15B-A221-4F8A-8351-954005105033}
+		{E021513E-0458-4D2B-B28D-91D7423099F2} = {CB84D15B-A221-4F8A-8351-954005105033}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3ADC35EC-EFFC-4DED-9E18-CF18BB2FC445}

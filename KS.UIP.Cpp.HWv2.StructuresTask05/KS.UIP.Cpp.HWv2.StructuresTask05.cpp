@@ -3,10 +3,11 @@
 
 //Homework 08 v2. Task 05. Structures.
 //Create Shooter Structure.
+//Structure of 10 shooters.
 //Structure contain data: 
 // - shot coordinate X, Y;
 // - shooter names.
-//Show all shooters and their shot results
+//Show all shooters and their shot results.
 //Shot rule: X and Y - Random init method: -10...10.
 //Ask user input letter. Show shooters which names starts on input letter.
 
@@ -37,16 +38,6 @@ int main()
 	initShooterResults(shooters, SIZE);
 	showShooterList(shooters, SIZE);
 	showShooterListByInputLetter(shooters, SIZE);
-
-	/*int icode = shooters[0].m_ShooterName[0];
-	int icodein(0);
-	char cLetter;
-	std::cout << icode << std::endl;
-	std::cout << "Input letter:\t";
-	std::cin >> cLetter;
-	std::cout << std::endl;
-	icodein = cLetter;
-	std::cout << cLetter << "\t" << icodein << std::endl;*/
 	
 	return 0;
 }
@@ -90,6 +81,7 @@ void showShooterListByInputLetter(Shooter parr[], int size)
 	int InputCode = letter;
 	int CountLetterMatches(0);
 
+	std::cout << "Search results for Names starts on '" << letter << "' - letter:" << std::endl;
 	for (int i = 0; i < size; ++i)
 	{
 		FirstLetter = parr[i].m_ShooterName[0];

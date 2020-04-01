@@ -21,7 +21,7 @@ int summArrayElements(int *pArr, int begin, int end);
 //MAIN:
 int main()
 {
-	const int SIZE(3);
+	const int SIZE(5);
 	int pArray[SIZE] = { 0 };
 	
 	initArray(pArray, SIZE);
